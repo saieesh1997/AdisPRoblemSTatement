@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+   
+</head>
+<body>
+    <form action="submission.php" method="post">
+    <div class="Form">
+       <label >Name of the cattle:</label><input type="text" value="" id="txt1"></div><br>
+       <label>Tag Number:</label><input type="text" name="enter the tag number" id="txt2"><br>
+       <label>Gender:</label>
+       <select name="gender" id="gender1">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+       </select><br>
+       <label >DOB</label><input type="date" id="dat" name="select the date"><br>
+       <label>cattle:</label>
+       <input type="file" id="img" name="img" accept="image/*">
+       <br>
+       <input type="button" value="submit">
+       <input type="reset" value="clear">
+    </div>
+</form>    
+</body>
+</html>
